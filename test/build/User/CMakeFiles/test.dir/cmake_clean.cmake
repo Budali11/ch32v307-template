@@ -1,0 +1,41 @@
+file(REMOVE_RECURSE
+  "../../bin/test"
+  "../../bin/test.pdb"
+  "CMakeFiles/test.dir/__/Core/core_riscv.c.o"
+  "CMakeFiles/test.dir/__/Debug/debug.c.o"
+  "CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_adc.c.o"
+  "CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_bkp.c.o"
+  "CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_can.c.o"
+  "CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_crc.c.o"
+  "CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_dac.c.o"
+  "CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_dbgmcu.c.o"
+  "CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_dma.c.o"
+  "CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_dvp.c.o"
+  "CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_eth.c.o"
+  "CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_exti.c.o"
+  "CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_flash.c.o"
+  "CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_fsmc.c.o"
+  "CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_gpio.c.o"
+  "CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_i2c.c.o"
+  "CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_iwdg.c.o"
+  "CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_misc.c.o"
+  "CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_opa.c.o"
+  "CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_pwr.c.o"
+  "CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_rcc.c.o"
+  "CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_rng.c.o"
+  "CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_rtc.c.o"
+  "CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_sdio.c.o"
+  "CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_spi.c.o"
+  "CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_tim.c.o"
+  "CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_usart.c.o"
+  "CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_wwdg.c.o"
+  "CMakeFiles/test.dir/__/Startup/startup_ch32v30x_D8C.S.o"
+  "CMakeFiles/test.dir/ch32v30x_it.c.o"
+  "CMakeFiles/test.dir/main.c.o"
+  "CMakeFiles/test.dir/system_ch32v30x.c.o"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang ASM C)
+  include(CMakeFiles/test.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

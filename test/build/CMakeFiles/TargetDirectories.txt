@@ -1,0 +1,5 @@
+/home/budali11/MCU/WCH/repo/test/build/CMakeFiles/rebuild_cache.dir
+/home/budali11/MCU/WCH/repo/test/build/CMakeFiles/edit_cache.dir
+/home/budali11/MCU/WCH/repo/test/build/User/CMakeFiles/rebuild_cache.dir
+/home/budali11/MCU/WCH/repo/test/build/User/CMakeFiles/edit_cache.dir
+/home/budali11/MCU/WCH/repo/test/build/User/CMakeFiles/test.dir

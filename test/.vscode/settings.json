@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "debug.h": "c",
+        "ch32v30x.h": "c",
+        "stdio.h": "c",
+        "stddef.h": "c"
+    }
+}
