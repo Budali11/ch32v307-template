@@ -47,6 +47,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_wwdg.c" "/home/budali11/MCU/WCH/repo/test/build/User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_wwdg.c.o"
   "/home/budali11/MCU/WCH/repo/test/User/ch32v30x_it.c" "/home/budali11/MCU/WCH/repo/test/build/User/CMakeFiles/test.dir/ch32v30x_it.c.o"
   "/home/budali11/MCU/WCH/repo/test/User/main.c" "/home/budali11/MCU/WCH/repo/test/build/User/CMakeFiles/test.dir/main.c.o"
+  "/home/budali11/MCU/WCH/repo/test/User/syscalls.c" "/home/budali11/MCU/WCH/repo/test/build/User/CMakeFiles/test.dir/syscalls.c.o"
   "/home/budali11/MCU/WCH/repo/test/User/system_ch32v30x.c" "/home/budali11/MCU/WCH/repo/test/build/User/CMakeFiles/test.dir/system_ch32v30x.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")

@@ -60,410 +60,423 @@ include User/CMakeFiles/test.dir/flags.make
 User/CMakeFiles/test.dir/__/Core/core_riscv.c.o: User/CMakeFiles/test.dir/flags.make
 User/CMakeFiles/test.dir/__/Core/core_riscv.c.o: ../Core/core_riscv.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/budali11/MCU/WCH/repo/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object User/CMakeFiles/test.dir/__/Core/core_riscv.c.o"
-	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv32-newlib/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test.dir/__/Core/core_riscv.c.o   -c /home/budali11/MCU/WCH/repo/test/Core/core_riscv.c
+	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv-wch/bin/riscv-none-embed-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test.dir/__/Core/core_riscv.c.o   -c /home/budali11/MCU/WCH/repo/test/Core/core_riscv.c
 
 User/CMakeFiles/test.dir/__/Core/core_riscv.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/test.dir/__/Core/core_riscv.c.i"
-	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv32-newlib/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/budali11/MCU/WCH/repo/test/Core/core_riscv.c > CMakeFiles/test.dir/__/Core/core_riscv.c.i
+	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv-wch/bin/riscv-none-embed-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/budali11/MCU/WCH/repo/test/Core/core_riscv.c > CMakeFiles/test.dir/__/Core/core_riscv.c.i
 
 User/CMakeFiles/test.dir/__/Core/core_riscv.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/test.dir/__/Core/core_riscv.c.s"
-	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv32-newlib/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/budali11/MCU/WCH/repo/test/Core/core_riscv.c -o CMakeFiles/test.dir/__/Core/core_riscv.c.s
+	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv-wch/bin/riscv-none-embed-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/budali11/MCU/WCH/repo/test/Core/core_riscv.c -o CMakeFiles/test.dir/__/Core/core_riscv.c.s
 
 User/CMakeFiles/test.dir/__/Debug/debug.c.o: User/CMakeFiles/test.dir/flags.make
 User/CMakeFiles/test.dir/__/Debug/debug.c.o: ../Debug/debug.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/budali11/MCU/WCH/repo/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object User/CMakeFiles/test.dir/__/Debug/debug.c.o"
-	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv32-newlib/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test.dir/__/Debug/debug.c.o   -c /home/budali11/MCU/WCH/repo/test/Debug/debug.c
+	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv-wch/bin/riscv-none-embed-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test.dir/__/Debug/debug.c.o   -c /home/budali11/MCU/WCH/repo/test/Debug/debug.c
 
 User/CMakeFiles/test.dir/__/Debug/debug.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/test.dir/__/Debug/debug.c.i"
-	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv32-newlib/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/budali11/MCU/WCH/repo/test/Debug/debug.c > CMakeFiles/test.dir/__/Debug/debug.c.i
+	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv-wch/bin/riscv-none-embed-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/budali11/MCU/WCH/repo/test/Debug/debug.c > CMakeFiles/test.dir/__/Debug/debug.c.i
 
 User/CMakeFiles/test.dir/__/Debug/debug.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/test.dir/__/Debug/debug.c.s"
-	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv32-newlib/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/budali11/MCU/WCH/repo/test/Debug/debug.c -o CMakeFiles/test.dir/__/Debug/debug.c.s
+	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv-wch/bin/riscv-none-embed-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/budali11/MCU/WCH/repo/test/Debug/debug.c -o CMakeFiles/test.dir/__/Debug/debug.c.s
 
 User/CMakeFiles/test.dir/main.c.o: User/CMakeFiles/test.dir/flags.make
 User/CMakeFiles/test.dir/main.c.o: ../User/main.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/budali11/MCU/WCH/repo/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object User/CMakeFiles/test.dir/main.c.o"
-	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv32-newlib/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test.dir/main.c.o   -c /home/budali11/MCU/WCH/repo/test/User/main.c
+	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv-wch/bin/riscv-none-embed-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test.dir/main.c.o   -c /home/budali11/MCU/WCH/repo/test/User/main.c
 
 User/CMakeFiles/test.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/test.dir/main.c.i"
-	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv32-newlib/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/budali11/MCU/WCH/repo/test/User/main.c > CMakeFiles/test.dir/main.c.i
+	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv-wch/bin/riscv-none-embed-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/budali11/MCU/WCH/repo/test/User/main.c > CMakeFiles/test.dir/main.c.i
 
 User/CMakeFiles/test.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/test.dir/main.c.s"
-	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv32-newlib/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/budali11/MCU/WCH/repo/test/User/main.c -o CMakeFiles/test.dir/main.c.s
+	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv-wch/bin/riscv-none-embed-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/budali11/MCU/WCH/repo/test/User/main.c -o CMakeFiles/test.dir/main.c.s
 
 User/CMakeFiles/test.dir/ch32v30x_it.c.o: User/CMakeFiles/test.dir/flags.make
 User/CMakeFiles/test.dir/ch32v30x_it.c.o: ../User/ch32v30x_it.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/budali11/MCU/WCH/repo/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object User/CMakeFiles/test.dir/ch32v30x_it.c.o"
-	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv32-newlib/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test.dir/ch32v30x_it.c.o   -c /home/budali11/MCU/WCH/repo/test/User/ch32v30x_it.c
+	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv-wch/bin/riscv-none-embed-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test.dir/ch32v30x_it.c.o   -c /home/budali11/MCU/WCH/repo/test/User/ch32v30x_it.c
 
 User/CMakeFiles/test.dir/ch32v30x_it.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/test.dir/ch32v30x_it.c.i"
-	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv32-newlib/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/budali11/MCU/WCH/repo/test/User/ch32v30x_it.c > CMakeFiles/test.dir/ch32v30x_it.c.i
+	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv-wch/bin/riscv-none-embed-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/budali11/MCU/WCH/repo/test/User/ch32v30x_it.c > CMakeFiles/test.dir/ch32v30x_it.c.i
 
 User/CMakeFiles/test.dir/ch32v30x_it.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/test.dir/ch32v30x_it.c.s"
-	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv32-newlib/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/budali11/MCU/WCH/repo/test/User/ch32v30x_it.c -o CMakeFiles/test.dir/ch32v30x_it.c.s
+	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv-wch/bin/riscv-none-embed-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/budali11/MCU/WCH/repo/test/User/ch32v30x_it.c -o CMakeFiles/test.dir/ch32v30x_it.c.s
 
 User/CMakeFiles/test.dir/system_ch32v30x.c.o: User/CMakeFiles/test.dir/flags.make
 User/CMakeFiles/test.dir/system_ch32v30x.c.o: ../User/system_ch32v30x.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/budali11/MCU/WCH/repo/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object User/CMakeFiles/test.dir/system_ch32v30x.c.o"
-	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv32-newlib/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test.dir/system_ch32v30x.c.o   -c /home/budali11/MCU/WCH/repo/test/User/system_ch32v30x.c
+	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv-wch/bin/riscv-none-embed-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test.dir/system_ch32v30x.c.o   -c /home/budali11/MCU/WCH/repo/test/User/system_ch32v30x.c
 
 User/CMakeFiles/test.dir/system_ch32v30x.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/test.dir/system_ch32v30x.c.i"
-	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv32-newlib/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/budali11/MCU/WCH/repo/test/User/system_ch32v30x.c > CMakeFiles/test.dir/system_ch32v30x.c.i
+	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv-wch/bin/riscv-none-embed-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/budali11/MCU/WCH/repo/test/User/system_ch32v30x.c > CMakeFiles/test.dir/system_ch32v30x.c.i
 
 User/CMakeFiles/test.dir/system_ch32v30x.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/test.dir/system_ch32v30x.c.s"
-	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv32-newlib/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/budali11/MCU/WCH/repo/test/User/system_ch32v30x.c -o CMakeFiles/test.dir/system_ch32v30x.c.s
+	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv-wch/bin/riscv-none-embed-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/budali11/MCU/WCH/repo/test/User/system_ch32v30x.c -o CMakeFiles/test.dir/system_ch32v30x.c.s
+
+User/CMakeFiles/test.dir/syscalls.c.o: User/CMakeFiles/test.dir/flags.make
+User/CMakeFiles/test.dir/syscalls.c.o: ../User/syscalls.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/budali11/MCU/WCH/repo/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object User/CMakeFiles/test.dir/syscalls.c.o"
+	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv-wch/bin/riscv-none-embed-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test.dir/syscalls.c.o   -c /home/budali11/MCU/WCH/repo/test/User/syscalls.c
+
+User/CMakeFiles/test.dir/syscalls.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/test.dir/syscalls.c.i"
+	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv-wch/bin/riscv-none-embed-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/budali11/MCU/WCH/repo/test/User/syscalls.c > CMakeFiles/test.dir/syscalls.c.i
+
+User/CMakeFiles/test.dir/syscalls.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/test.dir/syscalls.c.s"
+	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv-wch/bin/riscv-none-embed-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/budali11/MCU/WCH/repo/test/User/syscalls.c -o CMakeFiles/test.dir/syscalls.c.s
 
 User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_adc.c.o: User/CMakeFiles/test.dir/flags.make
 User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_adc.c.o: ../Peripheral/src/ch32v30x_adc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/budali11/MCU/WCH/repo/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_adc.c.o"
-	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv32-newlib/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_adc.c.o   -c /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_adc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/budali11/MCU/WCH/repo/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_adc.c.o"
+	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv-wch/bin/riscv-none-embed-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_adc.c.o   -c /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_adc.c
 
 User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_adc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_adc.c.i"
-	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv32-newlib/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_adc.c > CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_adc.c.i
+	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv-wch/bin/riscv-none-embed-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_adc.c > CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_adc.c.i
 
 User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_adc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_adc.c.s"
-	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv32-newlib/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_adc.c -o CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_adc.c.s
+	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv-wch/bin/riscv-none-embed-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_adc.c -o CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_adc.c.s
 
 User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_bkp.c.o: User/CMakeFiles/test.dir/flags.make
 User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_bkp.c.o: ../Peripheral/src/ch32v30x_bkp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/budali11/MCU/WCH/repo/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_bkp.c.o"
-	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv32-newlib/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_bkp.c.o   -c /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_bkp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/budali11/MCU/WCH/repo/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_bkp.c.o"
+	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv-wch/bin/riscv-none-embed-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_bkp.c.o   -c /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_bkp.c
 
 User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_bkp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_bkp.c.i"
-	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv32-newlib/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_bkp.c > CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_bkp.c.i
+	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv-wch/bin/riscv-none-embed-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_bkp.c > CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_bkp.c.i
 
 User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_bkp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_bkp.c.s"
-	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv32-newlib/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_bkp.c -o CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_bkp.c.s
+	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv-wch/bin/riscv-none-embed-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_bkp.c -o CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_bkp.c.s
 
 User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_can.c.o: User/CMakeFiles/test.dir/flags.make
 User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_can.c.o: ../Peripheral/src/ch32v30x_can.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/budali11/MCU/WCH/repo/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_can.c.o"
-	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv32-newlib/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_can.c.o   -c /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_can.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/budali11/MCU/WCH/repo/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_can.c.o"
+	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv-wch/bin/riscv-none-embed-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_can.c.o   -c /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_can.c
 
 User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_can.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_can.c.i"
-	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv32-newlib/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_can.c > CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_can.c.i
+	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv-wch/bin/riscv-none-embed-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_can.c > CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_can.c.i
 
 User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_can.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_can.c.s"
-	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv32-newlib/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_can.c -o CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_can.c.s
+	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv-wch/bin/riscv-none-embed-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_can.c -o CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_can.c.s
 
 User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_crc.c.o: User/CMakeFiles/test.dir/flags.make
 User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_crc.c.o: ../Peripheral/src/ch32v30x_crc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/budali11/MCU/WCH/repo/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_crc.c.o"
-	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv32-newlib/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_crc.c.o   -c /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_crc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/budali11/MCU/WCH/repo/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_crc.c.o"
+	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv-wch/bin/riscv-none-embed-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_crc.c.o   -c /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_crc.c
 
 User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_crc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_crc.c.i"
-	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv32-newlib/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_crc.c > CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_crc.c.i
+	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv-wch/bin/riscv-none-embed-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_crc.c > CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_crc.c.i
 
 User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_crc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_crc.c.s"
-	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv32-newlib/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_crc.c -o CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_crc.c.s
+	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv-wch/bin/riscv-none-embed-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_crc.c -o CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_crc.c.s
 
 User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_dac.c.o: User/CMakeFiles/test.dir/flags.make
 User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_dac.c.o: ../Peripheral/src/ch32v30x_dac.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/budali11/MCU/WCH/repo/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_dac.c.o"
-	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv32-newlib/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_dac.c.o   -c /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_dac.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/budali11/MCU/WCH/repo/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_dac.c.o"
+	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv-wch/bin/riscv-none-embed-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_dac.c.o   -c /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_dac.c
 
 User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_dac.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_dac.c.i"
-	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv32-newlib/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_dac.c > CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_dac.c.i
+	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv-wch/bin/riscv-none-embed-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_dac.c > CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_dac.c.i
 
 User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_dac.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_dac.c.s"
-	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv32-newlib/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_dac.c -o CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_dac.c.s
+	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv-wch/bin/riscv-none-embed-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_dac.c -o CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_dac.c.s
 
 User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_dbgmcu.c.o: User/CMakeFiles/test.dir/flags.make
 User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_dbgmcu.c.o: ../Peripheral/src/ch32v30x_dbgmcu.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/budali11/MCU/WCH/repo/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_dbgmcu.c.o"
-	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv32-newlib/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_dbgmcu.c.o   -c /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_dbgmcu.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/budali11/MCU/WCH/repo/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_dbgmcu.c.o"
+	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv-wch/bin/riscv-none-embed-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_dbgmcu.c.o   -c /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_dbgmcu.c
 
 User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_dbgmcu.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_dbgmcu.c.i"
-	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv32-newlib/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_dbgmcu.c > CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_dbgmcu.c.i
+	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv-wch/bin/riscv-none-embed-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_dbgmcu.c > CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_dbgmcu.c.i
 
 User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_dbgmcu.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_dbgmcu.c.s"
-	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv32-newlib/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_dbgmcu.c -o CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_dbgmcu.c.s
+	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv-wch/bin/riscv-none-embed-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_dbgmcu.c -o CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_dbgmcu.c.s
 
 User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_dma.c.o: User/CMakeFiles/test.dir/flags.make
 User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_dma.c.o: ../Peripheral/src/ch32v30x_dma.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/budali11/MCU/WCH/repo/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_dma.c.o"
-	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv32-newlib/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_dma.c.o   -c /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_dma.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/budali11/MCU/WCH/repo/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_dma.c.o"
+	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv-wch/bin/riscv-none-embed-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_dma.c.o   -c /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_dma.c
 
 User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_dma.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_dma.c.i"
-	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv32-newlib/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_dma.c > CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_dma.c.i
+	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv-wch/bin/riscv-none-embed-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_dma.c > CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_dma.c.i
 
 User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_dma.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_dma.c.s"
-	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv32-newlib/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_dma.c -o CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_dma.c.s
+	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv-wch/bin/riscv-none-embed-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_dma.c -o CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_dma.c.s
 
 User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_dvp.c.o: User/CMakeFiles/test.dir/flags.make
 User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_dvp.c.o: ../Peripheral/src/ch32v30x_dvp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/budali11/MCU/WCH/repo/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_dvp.c.o"
-	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv32-newlib/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_dvp.c.o   -c /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_dvp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/budali11/MCU/WCH/repo/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_dvp.c.o"
+	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv-wch/bin/riscv-none-embed-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_dvp.c.o   -c /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_dvp.c
 
 User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_dvp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_dvp.c.i"
-	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv32-newlib/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_dvp.c > CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_dvp.c.i
+	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv-wch/bin/riscv-none-embed-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_dvp.c > CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_dvp.c.i
 
 User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_dvp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_dvp.c.s"
-	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv32-newlib/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_dvp.c -o CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_dvp.c.s
+	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv-wch/bin/riscv-none-embed-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_dvp.c -o CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_dvp.c.s
 
 User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_eth.c.o: User/CMakeFiles/test.dir/flags.make
 User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_eth.c.o: ../Peripheral/src/ch32v30x_eth.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/budali11/MCU/WCH/repo/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_eth.c.o"
-	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv32-newlib/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_eth.c.o   -c /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_eth.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/budali11/MCU/WCH/repo/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_eth.c.o"
+	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv-wch/bin/riscv-none-embed-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_eth.c.o   -c /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_eth.c
 
 User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_eth.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_eth.c.i"
-	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv32-newlib/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_eth.c > CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_eth.c.i
+	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv-wch/bin/riscv-none-embed-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_eth.c > CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_eth.c.i
 
 User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_eth.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_eth.c.s"
-	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv32-newlib/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_eth.c -o CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_eth.c.s
+	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv-wch/bin/riscv-none-embed-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_eth.c -o CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_eth.c.s
 
 User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_exti.c.o: User/CMakeFiles/test.dir/flags.make
 User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_exti.c.o: ../Peripheral/src/ch32v30x_exti.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/budali11/MCU/WCH/repo/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_exti.c.o"
-	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv32-newlib/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_exti.c.o   -c /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_exti.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/budali11/MCU/WCH/repo/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_exti.c.o"
+	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv-wch/bin/riscv-none-embed-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_exti.c.o   -c /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_exti.c
 
 User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_exti.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_exti.c.i"
-	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv32-newlib/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_exti.c > CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_exti.c.i
+	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv-wch/bin/riscv-none-embed-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_exti.c > CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_exti.c.i
 
 User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_exti.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_exti.c.s"
-	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv32-newlib/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_exti.c -o CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_exti.c.s
+	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv-wch/bin/riscv-none-embed-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_exti.c -o CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_exti.c.s
 
 User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_flash.c.o: User/CMakeFiles/test.dir/flags.make
 User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_flash.c.o: ../Peripheral/src/ch32v30x_flash.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/budali11/MCU/WCH/repo/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_flash.c.o"
-	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv32-newlib/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_flash.c.o   -c /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_flash.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/budali11/MCU/WCH/repo/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_flash.c.o"
+	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv-wch/bin/riscv-none-embed-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_flash.c.o   -c /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_flash.c
 
 User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_flash.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_flash.c.i"
-	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv32-newlib/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_flash.c > CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_flash.c.i
+	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv-wch/bin/riscv-none-embed-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_flash.c > CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_flash.c.i
 
 User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_flash.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_flash.c.s"
-	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv32-newlib/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_flash.c -o CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_flash.c.s
+	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv-wch/bin/riscv-none-embed-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_flash.c -o CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_flash.c.s
 
 User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_fsmc.c.o: User/CMakeFiles/test.dir/flags.make
 User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_fsmc.c.o: ../Peripheral/src/ch32v30x_fsmc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/budali11/MCU/WCH/repo/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_fsmc.c.o"
-	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv32-newlib/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_fsmc.c.o   -c /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_fsmc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/budali11/MCU/WCH/repo/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_fsmc.c.o"
+	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv-wch/bin/riscv-none-embed-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_fsmc.c.o   -c /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_fsmc.c
 
 User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_fsmc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_fsmc.c.i"
-	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv32-newlib/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_fsmc.c > CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_fsmc.c.i
+	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv-wch/bin/riscv-none-embed-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_fsmc.c > CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_fsmc.c.i
 
 User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_fsmc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_fsmc.c.s"
-	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv32-newlib/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_fsmc.c -o CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_fsmc.c.s
+	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv-wch/bin/riscv-none-embed-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_fsmc.c -o CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_fsmc.c.s
 
 User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_gpio.c.o: User/CMakeFiles/test.dir/flags.make
 User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_gpio.c.o: ../Peripheral/src/ch32v30x_gpio.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/budali11/MCU/WCH/repo/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_gpio.c.o"
-	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv32-newlib/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_gpio.c.o   -c /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_gpio.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/budali11/MCU/WCH/repo/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_gpio.c.o"
+	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv-wch/bin/riscv-none-embed-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_gpio.c.o   -c /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_gpio.c
 
 User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_gpio.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_gpio.c.i"
-	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv32-newlib/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_gpio.c > CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_gpio.c.i
+	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv-wch/bin/riscv-none-embed-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_gpio.c > CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_gpio.c.i
 
 User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_gpio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_gpio.c.s"
-	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv32-newlib/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_gpio.c -o CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_gpio.c.s
+	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv-wch/bin/riscv-none-embed-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_gpio.c -o CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_gpio.c.s
 
 User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_i2c.c.o: User/CMakeFiles/test.dir/flags.make
 User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_i2c.c.o: ../Peripheral/src/ch32v30x_i2c.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/budali11/MCU/WCH/repo/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_i2c.c.o"
-	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv32-newlib/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_i2c.c.o   -c /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_i2c.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/budali11/MCU/WCH/repo/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_i2c.c.o"
+	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv-wch/bin/riscv-none-embed-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_i2c.c.o   -c /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_i2c.c
 
 User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_i2c.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_i2c.c.i"
-	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv32-newlib/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_i2c.c > CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_i2c.c.i
+	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv-wch/bin/riscv-none-embed-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_i2c.c > CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_i2c.c.i
 
 User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_i2c.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_i2c.c.s"
-	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv32-newlib/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_i2c.c -o CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_i2c.c.s
+	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv-wch/bin/riscv-none-embed-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_i2c.c -o CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_i2c.c.s
 
 User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_iwdg.c.o: User/CMakeFiles/test.dir/flags.make
 User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_iwdg.c.o: ../Peripheral/src/ch32v30x_iwdg.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/budali11/MCU/WCH/repo/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_iwdg.c.o"
-	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv32-newlib/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_iwdg.c.o   -c /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_iwdg.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/budali11/MCU/WCH/repo/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_iwdg.c.o"
+	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv-wch/bin/riscv-none-embed-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_iwdg.c.o   -c /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_iwdg.c
 
 User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_iwdg.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_iwdg.c.i"
-	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv32-newlib/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_iwdg.c > CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_iwdg.c.i
+	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv-wch/bin/riscv-none-embed-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_iwdg.c > CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_iwdg.c.i
 
 User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_iwdg.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_iwdg.c.s"
-	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv32-newlib/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_iwdg.c -o CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_iwdg.c.s
+	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv-wch/bin/riscv-none-embed-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_iwdg.c -o CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_iwdg.c.s
 
 User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_misc.c.o: User/CMakeFiles/test.dir/flags.make
 User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_misc.c.o: ../Peripheral/src/ch32v30x_misc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/budali11/MCU/WCH/repo/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_misc.c.o"
-	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv32-newlib/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_misc.c.o   -c /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_misc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/budali11/MCU/WCH/repo/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_misc.c.o"
+	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv-wch/bin/riscv-none-embed-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_misc.c.o   -c /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_misc.c
 
 User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_misc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_misc.c.i"
-	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv32-newlib/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_misc.c > CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_misc.c.i
+	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv-wch/bin/riscv-none-embed-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_misc.c > CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_misc.c.i
 
 User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_misc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_misc.c.s"
-	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv32-newlib/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_misc.c -o CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_misc.c.s
+	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv-wch/bin/riscv-none-embed-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_misc.c -o CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_misc.c.s
 
 User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_opa.c.o: User/CMakeFiles/test.dir/flags.make
 User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_opa.c.o: ../Peripheral/src/ch32v30x_opa.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/budali11/MCU/WCH/repo/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_opa.c.o"
-	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv32-newlib/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_opa.c.o   -c /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_opa.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/budali11/MCU/WCH/repo/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_opa.c.o"
+	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv-wch/bin/riscv-none-embed-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_opa.c.o   -c /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_opa.c
 
 User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_opa.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_opa.c.i"
-	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv32-newlib/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_opa.c > CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_opa.c.i
+	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv-wch/bin/riscv-none-embed-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_opa.c > CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_opa.c.i
 
 User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_opa.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_opa.c.s"
-	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv32-newlib/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_opa.c -o CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_opa.c.s
+	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv-wch/bin/riscv-none-embed-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_opa.c -o CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_opa.c.s
 
 User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_pwr.c.o: User/CMakeFiles/test.dir/flags.make
 User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_pwr.c.o: ../Peripheral/src/ch32v30x_pwr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/budali11/MCU/WCH/repo/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_pwr.c.o"
-	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv32-newlib/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_pwr.c.o   -c /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_pwr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/budali11/MCU/WCH/repo/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_pwr.c.o"
+	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv-wch/bin/riscv-none-embed-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_pwr.c.o   -c /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_pwr.c
 
 User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_pwr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_pwr.c.i"
-	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv32-newlib/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_pwr.c > CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_pwr.c.i
+	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv-wch/bin/riscv-none-embed-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_pwr.c > CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_pwr.c.i
 
 User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_pwr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_pwr.c.s"
-	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv32-newlib/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_pwr.c -o CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_pwr.c.s
+	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv-wch/bin/riscv-none-embed-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_pwr.c -o CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_pwr.c.s
 
 User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_rcc.c.o: User/CMakeFiles/test.dir/flags.make
 User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_rcc.c.o: ../Peripheral/src/ch32v30x_rcc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/budali11/MCU/WCH/repo/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_rcc.c.o"
-	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv32-newlib/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_rcc.c.o   -c /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_rcc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/budali11/MCU/WCH/repo/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_rcc.c.o"
+	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv-wch/bin/riscv-none-embed-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_rcc.c.o   -c /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_rcc.c
 
 User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_rcc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_rcc.c.i"
-	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv32-newlib/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_rcc.c > CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_rcc.c.i
+	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv-wch/bin/riscv-none-embed-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_rcc.c > CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_rcc.c.i
 
 User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_rcc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_rcc.c.s"
-	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv32-newlib/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_rcc.c -o CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_rcc.c.s
+	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv-wch/bin/riscv-none-embed-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_rcc.c -o CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_rcc.c.s
 
 User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_rng.c.o: User/CMakeFiles/test.dir/flags.make
 User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_rng.c.o: ../Peripheral/src/ch32v30x_rng.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/budali11/MCU/WCH/repo/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_rng.c.o"
-	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv32-newlib/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_rng.c.o   -c /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_rng.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/budali11/MCU/WCH/repo/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_rng.c.o"
+	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv-wch/bin/riscv-none-embed-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_rng.c.o   -c /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_rng.c
 
 User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_rng.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_rng.c.i"
-	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv32-newlib/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_rng.c > CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_rng.c.i
+	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv-wch/bin/riscv-none-embed-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_rng.c > CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_rng.c.i
 
 User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_rng.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_rng.c.s"
-	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv32-newlib/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_rng.c -o CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_rng.c.s
+	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv-wch/bin/riscv-none-embed-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_rng.c -o CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_rng.c.s
 
 User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_rtc.c.o: User/CMakeFiles/test.dir/flags.make
 User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_rtc.c.o: ../Peripheral/src/ch32v30x_rtc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/budali11/MCU/WCH/repo/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_rtc.c.o"
-	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv32-newlib/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_rtc.c.o   -c /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_rtc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/budali11/MCU/WCH/repo/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_rtc.c.o"
+	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv-wch/bin/riscv-none-embed-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_rtc.c.o   -c /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_rtc.c
 
 User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_rtc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_rtc.c.i"
-	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv32-newlib/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_rtc.c > CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_rtc.c.i
+	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv-wch/bin/riscv-none-embed-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_rtc.c > CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_rtc.c.i
 
 User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_rtc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_rtc.c.s"
-	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv32-newlib/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_rtc.c -o CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_rtc.c.s
+	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv-wch/bin/riscv-none-embed-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_rtc.c -o CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_rtc.c.s
 
 User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_sdio.c.o: User/CMakeFiles/test.dir/flags.make
 User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_sdio.c.o: ../Peripheral/src/ch32v30x_sdio.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/budali11/MCU/WCH/repo/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_sdio.c.o"
-	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv32-newlib/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_sdio.c.o   -c /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_sdio.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/budali11/MCU/WCH/repo/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_sdio.c.o"
+	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv-wch/bin/riscv-none-embed-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_sdio.c.o   -c /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_sdio.c
 
 User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_sdio.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_sdio.c.i"
-	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv32-newlib/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_sdio.c > CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_sdio.c.i
+	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv-wch/bin/riscv-none-embed-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_sdio.c > CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_sdio.c.i
 
 User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_sdio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_sdio.c.s"
-	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv32-newlib/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_sdio.c -o CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_sdio.c.s
+	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv-wch/bin/riscv-none-embed-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_sdio.c -o CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_sdio.c.s
 
 User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_spi.c.o: User/CMakeFiles/test.dir/flags.make
 User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_spi.c.o: ../Peripheral/src/ch32v30x_spi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/budali11/MCU/WCH/repo/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_spi.c.o"
-	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv32-newlib/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_spi.c.o   -c /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_spi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/budali11/MCU/WCH/repo/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_spi.c.o"
+	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv-wch/bin/riscv-none-embed-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_spi.c.o   -c /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_spi.c
 
 User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_spi.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_spi.c.i"
-	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv32-newlib/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_spi.c > CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_spi.c.i
+	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv-wch/bin/riscv-none-embed-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_spi.c > CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_spi.c.i
 
 User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_spi.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_spi.c.s"
-	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv32-newlib/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_spi.c -o CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_spi.c.s
+	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv-wch/bin/riscv-none-embed-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_spi.c -o CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_spi.c.s
 
 User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_tim.c.o: User/CMakeFiles/test.dir/flags.make
 User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_tim.c.o: ../Peripheral/src/ch32v30x_tim.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/budali11/MCU/WCH/repo/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_tim.c.o"
-	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv32-newlib/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_tim.c.o   -c /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_tim.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/budali11/MCU/WCH/repo/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_tim.c.o"
+	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv-wch/bin/riscv-none-embed-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_tim.c.o   -c /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_tim.c
 
 User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_tim.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_tim.c.i"
-	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv32-newlib/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_tim.c > CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_tim.c.i
+	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv-wch/bin/riscv-none-embed-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_tim.c > CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_tim.c.i
 
 User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_tim.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_tim.c.s"
-	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv32-newlib/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_tim.c -o CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_tim.c.s
+	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv-wch/bin/riscv-none-embed-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_tim.c -o CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_tim.c.s
 
 User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_usart.c.o: User/CMakeFiles/test.dir/flags.make
 User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_usart.c.o: ../Peripheral/src/ch32v30x_usart.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/budali11/MCU/WCH/repo/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_usart.c.o"
-	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv32-newlib/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_usart.c.o   -c /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_usart.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/budali11/MCU/WCH/repo/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_usart.c.o"
+	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv-wch/bin/riscv-none-embed-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_usart.c.o   -c /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_usart.c
 
 User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_usart.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_usart.c.i"
-	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv32-newlib/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_usart.c > CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_usart.c.i
+	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv-wch/bin/riscv-none-embed-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_usart.c > CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_usart.c.i
 
 User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_usart.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_usart.c.s"
-	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv32-newlib/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_usart.c -o CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_usart.c.s
+	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv-wch/bin/riscv-none-embed-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_usart.c -o CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_usart.c.s
 
 User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_wwdg.c.o: User/CMakeFiles/test.dir/flags.make
 User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_wwdg.c.o: ../Peripheral/src/ch32v30x_wwdg.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/budali11/MCU/WCH/repo/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_wwdg.c.o"
-	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv32-newlib/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_wwdg.c.o   -c /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_wwdg.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/budali11/MCU/WCH/repo/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_wwdg.c.o"
+	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv-wch/bin/riscv-none-embed-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_wwdg.c.o   -c /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_wwdg.c
 
 User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_wwdg.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_wwdg.c.i"
-	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv32-newlib/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_wwdg.c > CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_wwdg.c.i
+	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv-wch/bin/riscv-none-embed-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_wwdg.c > CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_wwdg.c.i
 
 User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_wwdg.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_wwdg.c.s"
-	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv32-newlib/bin/riscv32-unknown-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_wwdg.c -o CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_wwdg.c.s
+	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv-wch/bin/riscv-none-embed-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/budali11/MCU/WCH/repo/test/Peripheral/src/ch32v30x_wwdg.c -o CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_wwdg.c.s
 
 User/CMakeFiles/test.dir/__/Startup/startup_ch32v30x_D8C.S.o: User/CMakeFiles/test.dir/flags.make
 User/CMakeFiles/test.dir/__/Startup/startup_ch32v30x_D8C.S.o: ../Startup/startup_ch32v30x_D8C.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/budali11/MCU/WCH/repo/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building ASM object User/CMakeFiles/test.dir/__/Startup/startup_ch32v30x_D8C.S.o"
-	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv32-newlib/bin/riscv32-unknown-elf-as $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/test.dir/__/Startup/startup_ch32v30x_D8C.S.o -c /home/budali11/MCU/WCH/repo/test/Startup/startup_ch32v30x_D8C.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/budali11/MCU/WCH/repo/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building ASM object User/CMakeFiles/test.dir/__/Startup/startup_ch32v30x_D8C.S.o"
+	cd /home/budali11/MCU/WCH/repo/test/build/User && /usr/local/riscv/riscv-wch/bin/riscv-none-embed-as $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/test.dir/__/Startup/startup_ch32v30x_D8C.S.o -c /home/budali11/MCU/WCH/repo/test/Startup/startup_ch32v30x_D8C.S
 
 # Object files for target test
 test_OBJECTS = \
@@ -472,6 +485,7 @@ test_OBJECTS = \
 "CMakeFiles/test.dir/main.c.o" \
 "CMakeFiles/test.dir/ch32v30x_it.c.o" \
 "CMakeFiles/test.dir/system_ch32v30x.c.o" \
+"CMakeFiles/test.dir/syscalls.c.o" \
 "CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_adc.c.o" \
 "CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_bkp.c.o" \
 "CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_can.c.o" \
@@ -508,6 +522,7 @@ test_EXTERNAL_OBJECTS =
 ../bin/test: User/CMakeFiles/test.dir/main.c.o
 ../bin/test: User/CMakeFiles/test.dir/ch32v30x_it.c.o
 ../bin/test: User/CMakeFiles/test.dir/system_ch32v30x.c.o
+../bin/test: User/CMakeFiles/test.dir/syscalls.c.o
 ../bin/test: User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_adc.c.o
 ../bin/test: User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_bkp.c.o
 ../bin/test: User/CMakeFiles/test.dir/__/Peripheral/src/ch32v30x_can.c.o
@@ -537,7 +552,7 @@ test_EXTERNAL_OBJECTS =
 ../bin/test: User/CMakeFiles/test.dir/__/Startup/startup_ch32v30x_D8C.S.o
 ../bin/test: User/CMakeFiles/test.dir/build.make
 ../bin/test: User/CMakeFiles/test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/budali11/MCU/WCH/repo/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Linking C executable ../../bin/test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/budali11/MCU/WCH/repo/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Linking C executable ../../bin/test"
 	cd /home/budali11/MCU/WCH/repo/test/build/User && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

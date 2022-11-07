@@ -944,6 +944,33 @@ main.c.s:
 	cd /home/budali11/MCU/WCH/repo/test/build && $(MAKE) -f User/CMakeFiles/test.dir/build.make User/CMakeFiles/test.dir/main.c.s
 .PHONY : main.c.s
 
+syscalls.o: syscalls.c.o
+
+.PHONY : syscalls.o
+
+# target to build an object file
+syscalls.c.o:
+	cd /home/budali11/MCU/WCH/repo/test/build && $(MAKE) -f User/CMakeFiles/test.dir/build.make User/CMakeFiles/test.dir/syscalls.c.o
+.PHONY : syscalls.c.o
+
+syscalls.i: syscalls.c.i
+
+.PHONY : syscalls.i
+
+# target to preprocess a source file
+syscalls.c.i:
+	cd /home/budali11/MCU/WCH/repo/test/build && $(MAKE) -f User/CMakeFiles/test.dir/build.make User/CMakeFiles/test.dir/syscalls.c.i
+.PHONY : syscalls.c.i
+
+syscalls.s: syscalls.c.s
+
+.PHONY : syscalls.s
+
+# target to generate assembly for a file
+syscalls.c.s:
+	cd /home/budali11/MCU/WCH/repo/test/build && $(MAKE) -f User/CMakeFiles/test.dir/build.make User/CMakeFiles/test.dir/syscalls.c.s
+.PHONY : syscalls.c.s
+
 system_ch32v30x.o: system_ch32v30x.c.o
 
 .PHONY : system_ch32v30x.o
@@ -1071,6 +1098,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... syscalls.o"
+	@echo "... syscalls.i"
+	@echo "... syscalls.s"
 	@echo "... system_ch32v30x.o"
 	@echo "... system_ch32v30x.i"
 	@echo "... system_ch32v30x.s"

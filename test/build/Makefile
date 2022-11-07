@@ -111,6 +111,45 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named verify
+
+# Build rule for target.
+verify: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 verify
+.PHONY : verify
+
+# fast build rule for target.
+verify/fast:
+	$(MAKE) -f CMakeFiles/verify.dir/build.make CMakeFiles/verify.dir/build
+.PHONY : verify/fast
+
+#=============================================================================
+# Target rules for targets named download
+
+# Build rule for target.
+download: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 download
+.PHONY : download
+
+# fast build rule for target.
+download/fast:
+	$(MAKE) -f CMakeFiles/download.dir/build.make CMakeFiles/download.dir/build
+.PHONY : download/fast
+
+#=============================================================================
+# Target rules for targets named erase
+
+# Build rule for target.
+erase: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 erase
+.PHONY : erase
+
+# fast build rule for target.
+erase/fast:
+	$(MAKE) -f CMakeFiles/erase.dir/build.make CMakeFiles/erase.dir/build
+.PHONY : erase/fast
+
+#=============================================================================
 # Target rules for targets named test
 
 # Build rule for target.
@@ -131,6 +170,9 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... verify"
+	@echo "... download"
+	@echo "... erase"
 	@echo "... test"
 .PHONY : help
 

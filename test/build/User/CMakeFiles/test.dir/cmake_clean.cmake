@@ -32,6 +32,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/test.dir/__/Startup/startup_ch32v30x_D8C.S.o"
   "CMakeFiles/test.dir/ch32v30x_it.c.o"
   "CMakeFiles/test.dir/main.c.o"
+  "CMakeFiles/test.dir/syscalls.c.o"
   "CMakeFiles/test.dir/system_ch32v30x.c.o"
 )
 
