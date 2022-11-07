@@ -32,8 +32,8 @@ set(CMAKE_ASM_COMPILER /usr/local/riscv/riscv-wch/bin/riscv-none-embed-as)
 
 # add phony targets
 set(ERASE -f /usr/local/share/openocd/scripts/interface/wch-riscv.cfg -c init -c halt -c "flash erase_sector wch_riscv 0 last" -c exit)
-set(DOWNLOAD -f wch-riscv.cfg  -c init -c halt  -c "program ${TARGET}.elf"  -c exit)
-set(VERIFY -f wch-riscv.cfg  -c init -c halt  -c "verify_image ${TARGET}.elf"  -c exit)
+set(DOWNLOAD -f /usr/local/share/openocd/scripts/interface/wch-riscv.cfg  -c init -c halt  -c "program ${TARGET}.elf"  -c exit)
+set(VERIFY -f /usr/local/share/openocd/scripts/interface/wch-riscv.cfg  -c init -c halt  -c "verify_image ${TARGET}.elf"  -c exit)
 add_custom_target(erase 
     COMMAND ${PROJECT_SOURCE_DIR}/openocd ${ERASE})
 add_custom_target(download 
